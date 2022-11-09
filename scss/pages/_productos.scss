@@ -1,0 +1,51 @@
+.h2-prod{
+    text-align: center;
+    background-color: rgba(255, 239, 213, 0.411);
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+}
+.p-prod{
+    background-color: rgba(127, 255, 191, 0.493);
+    padding: 5%;
+}
+.div-prod{
+    display: flex;
+    margin: 30px;
+    justify-content: space-around;
+    align-items: baseline;
+
+}
+.h1-prod{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-left: 70px;
+    color: gainsboro;
+    background-color: rgba(0, 0, 0, 0.219);
+    font-family: 'Kalam', cursive;
+    font-weight: 200px;
+    font-size: 100px;
+}
+.main-prod{
+    height: 100vh;
+}
+.h3-prod{
+    background: rgba(255, 239, 213, 0.452);
+    font-family: 'Amatic SC', cursive;
+    font-weight: 800;
+    font-size: 3.5rem;
+}
+.p-prod{
+    background: rgba(255, 239, 213, 0.452);
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+@media (min-width: 360px){
+
+    .h1-prod{
+        margin: 0;
+        text-align: center;
+        font-size: 80px;
+    }
+}

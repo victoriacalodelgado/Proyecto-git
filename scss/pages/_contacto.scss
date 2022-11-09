@@ -1,0 +1,17 @@
+@media (max-width: 380px){
+    .form-floating{
+        width: 250px;
+        padding: 10px;
+        margin: 5px;}
+
+    .ofertas{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+    }    
+    .submit{
+        display: flex;
+        margin-left: 35px;
+    }
+}

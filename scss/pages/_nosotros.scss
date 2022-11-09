@@ -1,0 +1,37 @@
+.main-nos{
+    height: 100%;
+    text-align: center;
+    margin: 80px;
+}
+
+.h1-nos{
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+    color:gainsboro ;
+}
+.h2-nos{
+    text-align: left;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    color:gainsboro 
+}
+.p-nos{
+    background-color: rgba(65, 65, 65, 0.377);
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.footer-nos{
+    justify-content: space-around;
+    bottom: 0%;
+    background-color: rgba(127, 255, 191, 0.726);
+    margin-top: auto;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+}
+@media (max-width: 380px){
+    .main-nos{
+        margin: 0;
+    }
+}
