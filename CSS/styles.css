@@ -316,6 +316,14 @@ nav {
   height: 100vh;
 }
 
+@media (max-width: 380px) {
+  .h1-inicio {
+    margin: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 80;
+  }
+}
 .main-nos {
   height: 100%;
   text-align: center;
@@ -406,11 +414,15 @@ nav {
   font-size: 1.3rem;
 }
 
-@media (min-width: 360px) {
+@media (max-width: 380px) {
   .h1-prod {
     margin: 0;
     text-align: center;
     font-size: 80px;
+  }
+  body {
+    background-size: auto;
+    background-repeat: repeat-y;
   }
 }
 

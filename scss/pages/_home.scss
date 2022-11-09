@@ -15,3 +15,11 @@
 .main-inicio{
     height: 100vh;
 }
+@media (max-width: 380px){
+    .h1-inicio{
+        margin: 40px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        font-size: 80;
+    }
+}
