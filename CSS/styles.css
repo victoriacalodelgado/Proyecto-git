@@ -68,8 +68,18 @@ a {
     height: 12rem;
     margin: 20px;
   }
+  .tarjeta:hover {
+    width: 17rem;
+    height: 19rem;
+    margin: 0;
+  }
   .p-prod {
     overflow: auto;
+  }
+  .btn {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
   }
 }
 @media (min-width: 600px) {
